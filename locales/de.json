@@ -1,0 +1,47 @@
+{
+    "index": {
+        "nav" : {
+            "daySwitcherText" : "Tage"
+        }
+    },
+    "subjects" : {
+        "heading" : {
+            "main" : "Fächer"
+        },
+        "modal" : {
+            "subject" : "Fach",
+            "teacher" : "Lehrer",
+            "room" : "Raum",
+            "submit" : "Akzeptieren"
+        }
+    },
+    "settings" : {
+        "heading" : {
+            "main" : "Einstellungen",
+            "general" : "Allgemein",
+            "timespans" : "Zeitspannen",
+            "experimental" : "Experimentell",
+            "teacherNames" : "Lehrer Namen",
+            "currentSubject" : "Aktuelles Fach",
+            "language" : "Sprache",
+            "freeHourWidgets" : "Freistunden Widgets",
+            "textWidget" : "Textwidget"
+        },
+        "select" : {
+            "searchNotFound" : "Keine Ergebnisse"
+        },
+        "teacherNames" : "Lehrernamen anzeigen",
+        "currentSubject" : "Aktuelles Fach hervorheben",
+        "freeHourWidgets" : {
+            "toggle" : "Freistunden Widgets",
+            "textWidget" : "Textwidget"
+        }
+    },
+    "introduction" : {
+        "welcome" : "Willkommen",
+        "stepExplanation" : "Du bist nur noch wenige Schritte von deinem mobilen Stundenplan entfernt:",
+        "step1" : "Fächer einrichten",
+        "step2" : "Fächer zu einem Tag hinzufügen",
+        "step3" : "Eventuell: Uhrzeiten deiner Stunden abändern"
+    }
+}

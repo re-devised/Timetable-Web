@@ -1,0 +1,48 @@
+{
+    "index": {
+        "nav" : {
+            "daySwitcherText" : "Days"
+        }
+    },
+    "subjects" : {
+        "heading" : {
+            "main" : "Subjects"
+        },
+        "modal" : {
+            "subject" : "Subject",
+            "teacher" : "Teacher",
+            "room" : "Room",
+            "submit" : "Accept"
+        }
+    },
+    "settings" : {
+        "heading" : {
+            "main" : "Settings",
+            "general" : "General",
+            "timespans" : "Timespans",
+            "experimental" : "Experimental",
+            "teacherNames" : "Teacher names",
+            "currentSubject" : "Current Subject",
+            "language" : "Language",
+            "freeHourWidgets" : "Free hour widgets",
+            "textWidget" : "Text widget"
+
+        },
+        "select": {
+            "searchNotFound" : "No results"
+        },
+        "teacherNames" : "Display teacher names",
+        "currentSubject" : "Highlight current subject",
+        "freeHourWidgets" : {
+            "toggle" : "Free hour widgets",
+            "textWidget" : "Textwidget"
+        }
+    },
+    "introduction" : {
+        "welcome" : "Welcome",
+        "stepExplanation" : "You are only a few steps away from your mobile timetable:",
+        "step1" : "Set up subjects",
+        "step2" : "Add subjects to a day",
+        "step3" : "Eventually: Change times of your lessons"
+    }
+}

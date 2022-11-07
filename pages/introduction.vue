@@ -1,0 +1,63 @@
+<template>
+    <div class="w-full h-full flex flex-col items-center px-10" v-if="isLoaded">
+        <div class="max-w-sm">
+            <div class="w-full flex flex-row justify-center items-center mb-28 mt-16">
+              <svg class="absolute w-44 h-44 opacity-10" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                  <g transform="matrix(1.01297,0,0,1.01297,18.3535,21.2057)">
+                      <g transform="matrix(5.28638e-17,-0.863331,0.863331,5.28638e-17,2.48695,503.017)">
+                          <path d="M480,127C480,115.41 470.59,106 459,106L120,106C108.41,106 99,115.41 99,127L99,169C99,180.59 108.41,190 120,190L459,190C470.59,190 480,180.59 480,169L480,127Z" style="fill:rgb(69,71,120);fill-opacity:0;stroke:rgb(69,71,120);stroke-width:17.97px;"/>
+                      </g>
+                      <g transform="matrix(3.76482e-17,-0.614841,0.863331,5.28638e-17,100.907,383.742)">
+                          <path d="M480,127C480,115.41 466.787,106 450.513,106L128.487,106C112.213,106 99,115.41 99,127L99,169C99,180.59 112.213,190 128.487,190L450.513,190C466.787,190 480,180.59 480,169L480,127Z" style="fill:rgb(69,71,120);fill-opacity:0;stroke:rgb(69,71,120);stroke-width:20.7px;"/>
+                      </g>
+                      <g transform="matrix(5.26736e-17,-0.860225,0.863331,5.28638e-17,199.326,447.088)">
+                          <path d="M480,127C480,115.41 470.556,106 458.924,106L120.076,106C108.444,106 99,115.41 99,127L99,169C99,180.59 108.444,190 120.076,190L458.924,190C470.556,190 480,180.59 480,169L480,127Z" style="fill:rgb(69,71,120);fill-opacity:0;stroke:rgb(69,71,120);stroke-width:18px;"/>
+                      </g>
+                      <g transform="matrix(6.12323e-17,1,-1.00503,6.154e-17,607.574,-93.1479)">
+                          <path d="M250,178L250,576L250,178Z" style="fill:none;stroke:rgb(69,71,120);stroke-width:15.48px;"/>
+                      </g>
+                  </g>
+              </svg> 
+              <!-- <div class="absolute text-3xl uppercase font-semibold leading-tight">
+                <div class="opacity-30">Timetable</div>
+              </div> -->
+            </div>
+
+            <h2 class="text-2xl font-bold mb-12">{{$t('introduction.welcome')}}</h2> 
+            <span class="mb-8 block">{{$t('introduction.stepExplanation')}}</span>
+            <div class="flex flex-row block font-semibold mb-1">
+              <span class="shrink mr-2">-</span>
+              <span>{{$t('introduction.step1')}}</span>
+            </div>
+            <div class="flex flex-row block font-semibold mb-1">
+              <span class="shrink mr-2">-</span>
+              <span>{{$t('introduction.step2')}}</span>
+            </div>
+             <div class="flex flex-row block">
+              <span class="shrink mr-2">-</span>
+              <span>{{$t('introduction.step3')}}</span>
+            </div>
+        </div>
+    </div>
+    <loading-screen v-else/>
+</template>
+
+<script>
+import LoadingScreen from '~/components/LoadingScreen'
+
+export default {
+  transition: 'transition',
+  components:{
+    LoadingScreen,
+  },
+  data() {
+    return {
+      isLoaded: false,
+    }
+  },
+  mounted() {
+      this.isLoaded = true
+  }
+}
+
+</script>
